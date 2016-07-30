@@ -1,0 +1,1 @@
+# chrome-origin-image-size
