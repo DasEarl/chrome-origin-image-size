@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Origin image size",
+    "version": "0.1",
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+
+    "content_scripts": [{
+        "matches": ["https://*/*.png"],
+        "js": ["content.js"]
+    }]
+}
